@@ -157,7 +157,7 @@ li:hover > ul.drop-menu li {
 .hero{
     background-image: url('../img/masterstouch_bg.jpg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     padding-top:80px;
     padding-bottom: 400px;
@@ -228,6 +228,7 @@ display: inline-block;
     text-align: center;
     margin-top:100px ;
     margin-bottom: 100px;
+    padding: 0px 5px !important;
 }
 
 .icon{
@@ -299,11 +300,12 @@ i{
 
 
 /*footer*/
-footer{
-margin-top:50px;
-    margin-bottom:50px;
-
-    text-align: center;
+footer{  
+clear: both;
+width:100%;
+text-align: left;
+margin: 50px 0px 50px 0px;
+font-weight: bold ;
 }
 
 footer .logo{
@@ -313,9 +315,11 @@ footer .logo{
 footer p{
     color:#444;
     font-size:.8em;
+    margin-left: 10px;
 }
 
 .social-icons i{
+    text-align: center;
     font-size: 1.5em;
     line-height: 50px;
     color:#fff;
@@ -323,5 +327,5 @@ footer p{
     height:50px;
     background:#BAA9BF;
     border-radius: 50%;
-    margin: 0 5px;
+    margin: 0 50px;
 }
