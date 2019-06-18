@@ -157,24 +157,22 @@ li:hover > ul.drop-menu li {
 .hero{
     background-image: url('../img/masterstouch_bg.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top:100px;
-    padding-bottom: 450px;
-    position: relative;
-    z-index: 0;
+    background-position: top;
+    background-size: 100% 100%;
+    padding-top:80px;
+    padding-bottom: 360px;
 }
 
 .hero:before{
     content: "";
     position: absolute;
     z-index: 0;
-    bottom:-5px;
+    bottom:0;
     right:0;
     margin: 0;
     border-bottom: 60px solid #fff;
     border-left: 70px solid transparent;
-    width: 35%;
+    width: 30%;
 }
 
 .btn-container{
@@ -298,6 +296,48 @@ i{
 }
 
 
+.servicesH{
+    background: white;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    padding-top:30px;
+    text-align: center;
+}
+
+.servicesH:before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    border-left: 70px solid transparent;
+    width: 30%;
+}
+
+.servicesH h1{
+    color: #411850;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.servicesH b{
+    color: #411850;
+    font-style: italic;
+}
+.servicesH img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    padding-bottom:10px;
+}
+
+
+.serviceText{
+        margin:30px -50px 50px -50px;
+    line-height: 0px;
+    font-size: 10em;
+}
 
 /*footer*/
 footer{  
@@ -329,3 +369,5 @@ footer p{
     border-radius: 50%;
     margin: 0 50px;
 }
+
+
